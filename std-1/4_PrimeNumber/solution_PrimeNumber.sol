@@ -7,7 +7,7 @@ contract PrimeNumber{
     
     function ifPrime(int a) public pure returns (bool){
         if (a>2 || (a*-1)>2 ) {
-            for (int i=2; i<a/2;i++) {
+            for (int i=2; i<((a/2)+1);i++) {
                 if (a%i==0) return false;
             }
         }
