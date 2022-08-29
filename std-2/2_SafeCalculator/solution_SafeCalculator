@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.4;
+
+contract safeCalculator {    
+    function addition(uint a,uint b) public pure returns (uint){
+        require (a+b>a);
+        return a+b;
+    }
+
+    function subtraction(uint a,uint b) public pure returns (uint) {
+        assert(a>=b);
+        return a-b;
+    }
+
+    function multiplication (uint a,uint b) public pure returns (uint) {
+        require((a*b)/a==b);
+        return a*b;
+    }
+
+    function division(uint a,uint b) public pure returns (uint) {
+        require(b>0);
+        return a/b;
+    }
+
+}
