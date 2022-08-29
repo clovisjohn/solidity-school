@@ -8,3 +8,6 @@ Here you will be introduced to various operators, conditional statements, data t
 Let's move!
 
 :point_right: **NOTE:** If you have come here directly jumping Standard 0 and don't have tried writing even a single smart contract, we request you to start from the beginning and spend some time in [std-0](https://github.com/Aniket-Engg/solidity-school/tree/master/std-0).
+
+
+# Done ✔️
